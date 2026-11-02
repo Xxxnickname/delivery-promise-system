@@ -7,7 +7,13 @@
 - 新增 JWT 登录、角色依赖、SQLite 持久化
 - 新增 DeepSeek JSON 表头抽取与真实 `deepseek-flash` 验证
 - 新增 22 条边界验收、DoD 检查、33 条 pytest
-- 新增完整 GitHub 文档与截图
+- 新增完整 GitHub 文档与 12 张截图
+- 完善 README、详细用法、API、架构、数据模型、部署、运维、测试与 LLM 文档
+- 明确静态 mock 前端与真实 FastAPI 后端的边界
+- 修正角色权限、客户范围、租户、审计、替代料、PostgreSQL/Celery 的当前状态说明
+- 补充 PowerShell 可执行的 API 调用示例与四表准备说明
+- 补充技术栈版本、计算口径、配置项和常见问题
+- 增加 `.gitleaksignore` 说明文档占位符误报
 
 ## 0.2.0-g2 — 2026-11-02
 
