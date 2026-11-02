@@ -25,7 +25,7 @@ def _env_int(name: str, default: int) -> int:
 
 @dataclass(frozen=True)
 class Settings:
-    """应用运行参数；G2 只使用端口、目录和导入限制，后续阶段再使用数据库配置。"""
+    """应用运行参数：端口、目录、数据库、鉴权与模型配置。"""
 
     app_name: str = "订单交期测算与缺料预警"
     app_env: str = os.getenv("APP_ENV", "development")
@@ -38,7 +38,7 @@ class Settings:
     redis_url: str = os.getenv("REDIS_URL", "redis://redis:6379/0")
     model_provider: str = os.getenv("MODEL_PROVIDER", "deepseek")
     model_base_url: str = os.getenv("MODEL_BASE_URL", "https://api.deepseek.com")
-    model_name: str = os.getenv("MODEL_NAME", "deepseek-chat")
+    model_name: str = os.getenv("MODEL_NAME", "deepseek-flash")
     llm_enabled: bool = os.getenv("LLM_ENABLED", "false").lower() in {"1", "true", "yes"}
     model_timeout_seconds: int = _env_int("MODEL_TIMEOUT_SECONDS", 20)
     model_api_key: str = os.getenv("MODEL_API_KEY", "")

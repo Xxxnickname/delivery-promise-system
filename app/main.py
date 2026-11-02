@@ -1,4 +1,4 @@
-"""FastAPI 应用入口：G2/G3/G4 接口 + 现有静态前端。"""
+"""FastAPI 应用入口：业务 API + 静态前端。"""
 from __future__ import annotations
 
 import logging

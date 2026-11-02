@@ -8,7 +8,7 @@ from fastapi import APIRouter, Header, Request, Depends
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from app.api.auth import require_auth, require_roles
+from app.api.auth import CurrentUser, require_auth
 from app.core.errors import ApiError, ErrorCode, api_ok
 from app.services.export_service import export_service
 from app.services.import_batch import import_service
@@ -64,10 +64,11 @@ def _rows_for_request(payload: ExportRequest) -> tuple[list[dict[str, Any]], str
 
 
 @router.post("")
-async def create_export(request: Request, payload: ExportRequest, x_user_id: str = Header("demo", alias="X-User-Id")):
-    """创建 xlsx 导出任务；同用户同时只允许一个任务。"""
+async def create_export(request: Request, payload: ExportRequest, user: CurrentUser | None = Depends(require_auth), x_user_id: str = Header("demo", alias="X-User-Id")):
+    """创建 xlsx 导出任务；登录用户优先使用 JWT 账号作为任务归属。"""
     rows, sheet_name = _rows_for_request(payload)
-    task = export_service.create(x_user_id, payload.kind, rows, sheet_name)
+    owner = user.account if user else x_user_id
+    task = export_service.create(owner, payload.kind, rows, sheet_name)
     return api_ok(task.to_dict(), trace_id=_trace(request))
 
 
