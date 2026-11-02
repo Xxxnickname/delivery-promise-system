@@ -9,7 +9,7 @@ openpyxl>=3.1,<4
 
 PyJWT>=2.9,<3
 SQLAlchemy>=2.0,<2.1
-psycopg[binary]>=3.2,<4
+psycopg[binary]>=3.3.6,<4
 redis>=5,<6
 celery>=5.4,<6
 
