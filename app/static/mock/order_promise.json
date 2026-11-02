@@ -1,0 +1,87 @@
+{
+  "updated_at": "2026-11-01 14:32",
+  "calc_version": "gen-1.0",
+  "orders": [
+    {
+      "order_no": "SO202601001",
+      "customer": "华东智造",
+      "owner": "销售演示",
+      "product_code": "FG-500",
+      "product_name": "智能控制柜 500 型",
+      "qty": "120",
+      "due_date": "2026-11-12",
+      "kit_date": "2026-11-06",
+      "can_commit": true,
+      "delay_days": 0,
+      "risk": "低",
+      "gaps_count": 0,
+      "order_state": "已排产",
+      "last_queried": "2026-11-01 14:20"
+    },
+    {
+      "order_no": "SO202601002",
+      "customer": "环宇电气",
+      "owner": "销售演示",
+      "product_code": "FG-320",
+      "product_name": "智能控制柜 320 型",
+      "qty": "80",
+      "due_date": "2026-11-18",
+      "kit_date": "2026-11-15",
+      "can_commit": true,
+      "delay_days": 0,
+      "risk": "低",
+      "gaps_count": 0,
+      "order_state": "已排产",
+      "last_queried": "2026-11-01 13:46"
+    },
+    {
+      "order_no": "SO202601003",
+      "customer": "南岭装备",
+      "owner": "销售二",
+      "product_code": "FG-680",
+      "product_name": "智能控制柜 680 型",
+      "qty": "45",
+      "due_date": "2026-11-25",
+      "kit_date": "2026-11-20",
+      "can_commit": true,
+      "delay_days": 0,
+      "risk": "中",
+      "gaps_count": 0,
+      "order_state": "待齐套",
+      "last_queried": "2026-11-01 11:08"
+    },
+    {
+      "order_no": "SO202601004",
+      "customer": "华东智造",
+      "owner": "销售演示",
+      "product_code": "FG-500",
+      "product_name": "智能控制柜 500 型",
+      "qty": "180",
+      "due_date": "2026-11-10",
+      "kit_date": "2026-11-17",
+      "can_commit": false,
+      "delay_days": 7,
+      "risk": "高",
+      "gaps_count": 6,
+      "order_state": "缺料预警",
+      "last_queried": "2026-11-01 14:28"
+    },
+    {
+      "order_no": "SO202601005",
+      "customer": "北辰精工",
+      "owner": "销售三",
+      "product_code": "FG-450",
+      "product_name": "智能控制柜 450 型",
+      "qty": "96",
+      "due_date": "2026-11-14",
+      "kit_date": "2026-11-22",
+      "can_commit": false,
+      "delay_days": 8,
+      "risk": "高",
+      "gaps_count": 3,
+      "order_state": "缺料预警",
+      "last_queried": "2026-11-01 10:42"
+    }
+  ]
+}
+

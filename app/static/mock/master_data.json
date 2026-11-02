@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-11-01 14:45",
+  "data_version": "master-3.2",
+  "aliases": [
+    { "alias": "伺服驱动器", "standard_code": "RM-033", "standard_name": "高精度伺服驱动器", "source": "ERP 旧编码", "status": "已归一", "updated_at": "2026-10-28" },
+    { "alias": "伺服驱动", "standard_code": "RM-033", "standard_name": "高精度伺服驱动器", "source": "采购习惯叫法", "status": "已归一", "updated_at": "2026-10-28" },
+    { "alias": "电源模块-工业", "standard_code": "RM-041", "standard_name": "工业级电源模块", "source": "ERP 旧编码", "status": "已归一", "updated_at": "2026-10-27" },
+    { "alias": "24V电源", "standard_code": "RM-041", "standard_name": "工业级电源模块", "source": "BOM 备注", "status": "已归一", "updated_at": "2026-10-27" },
+    { "alias": "通讯板", "standard_code": "RM-052", "standard_name": "通信接口板", "source": "历史图纸", "status": "已归一", "updated_at": "2026-10-25" },
+    { "alias": "接口板 A", "standard_code": "RM-052", "standard_name": "通信接口板", "source": "供应商命名", "status": "已归一", "updated_at": "2026-10-25" },
+    { "alias": "屏蔽线", "standard_code": "RM-067", "standard_name": "屏蔽线束组件", "source": "车间叫法", "status": "已归一", "updated_at": "2026-10-24" },
+    { "alias": "线束-屏蔽", "standard_code": "RM-067", "standard_name": "屏蔽线束组件", "source": "ERP 旧编码", "status": "已归一", "updated_at": "2026-10-24" },
+    { "alias": "导轨支架", "standard_code": "RM-019", "standard_name": "导轨安装支架", "source": "采购习惯叫法", "status": "已归一", "updated_at": "2026-10-22" },
+    { "alias": "DIN 支架", "standard_code": "RM-019", "standard_name": "导轨安装支架", "source": "图纸英文名", "status": "已归一", "updated_at": "2026-10-22" },
+    { "alias": "风扇模组", "standard_code": "RM-024", "standard_name": "散热模组", "source": "供应商命名", "status": "已归一", "updated_at": "2026-10-21" },
+    { "alias": "散热单元", "standard_code": "RM-024", "standard_name": "散热模组", "source": "BOM 备注", "status": "已归一", "updated_at": "2026-10-21" },
+    { "alias": "柜体-500", "standard_code": "FG-500", "standard_name": "智能控制柜 500 型", "source": "销售口径", "status": "已归一", "updated_at": "2026-10-20" },
+    { "alias": "控制柜500", "standard_code": "FG-500", "standard_name": "智能控制柜 500 型", "source": "历史订单", "status": "已归一", "updated_at": "2026-10-20" },
+    { "alias": "柜体-320", "standard_code": "FG-320", "standard_name": "智能控制柜 320 型", "source": "销售口径", "status": "已归一", "updated_at": "2026-10-18" },
+    { "alias": "控制柜320", "standard_code": "FG-320", "standard_name": "智能控制柜 320 型", "source": "历史订单", "status": "已归一", "updated_at": "2026-10-18" },
+    { "alias": "柜体-680", "standard_code": "FG-680", "standard_name": "智能控制柜 680 型", "source": "销售口径", "status": "已归一", "updated_at": "2026-10-17" },
+    { "alias": "控制柜680", "standard_code": "FG-680", "standard_name": "智能控制柜 680 型", "source": "历史订单", "status": "已归一", "updated_at": "2026-10-17" },
+    { "alias": "柜体-450", "standard_code": "FG-450", "standard_name": "智能控制柜 450 型", "source": "销售口径", "status": "待确认", "updated_at": "2026-10-30" },
+    { "alias": "控制柜450", "standard_code": "FG-450", "standard_name": "智能控制柜 450 型", "source": "历史订单", "status": "待确认", "updated_at": "2026-10-30" }
+  ],
+  "substitutes": [
+    { "group_code": "SG-001", "group_name": "伺服驱动器替代组", "primary": "RM-033", "substitute": "RM-034", "ratio": "1.00", "note": "一对一替代，需质量主管确认批次" },
+    { "group_code": "SG-002", "group_name": "电源模块替代组", "primary": "RM-041", "substitute": "RM-044", "ratio": "1.00", "note": "仅限 24V/20A 规格，不允许跨功率替代" },
+    { "group_code": "SG-003", "group_name": "通信接口板替代组", "primary": "RM-052", "substitute": "RM-055", "ratio": "0.85", "note": "按 0.85 用量折算，需重新校验接口协议" }
+  ],
+  "config": {
+    "scrap_rate": "2.00",
+    "safety_stock_days": "5",
+    "work_calendar": "周一至周六",
+    "workday_start": "08:30",
+    "workday_end": "17:30",
+    "rounding_rule": "四舍五入 · 数量 2 位 / 中间量 3 位",
+    "timezone": "Asia/Shanghai"
+  }
+}

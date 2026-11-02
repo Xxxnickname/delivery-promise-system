@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.env
+plan.db
+*.sqlite*
+reports/exports
+reports/uvicorn*.log
+reports/uvicorn.pid
+docs/screenshots

@@ -1,0 +1,362 @@
+{
+  "updated_at": "2026-11-02 09:10",
+  "calc_version": "gen-1.0",
+  "summary": {
+    "shortage_items": 6,
+    "at_risk_orders": 2,
+    "affected_orders": 4,
+    "critical_items": 3,
+    "need_this_week": 5,
+    "max_delay_days": 8
+  },
+  "items": [
+    {
+      "item_code": "RM-067",
+      "item_name": "屏蔽线束组件",
+      "item_type": "原材料",
+      "unit": "件",
+      "total_need": "10320.00",
+      "available": "300.00",
+      "gap": "10020.00",
+      "earliest_required_date": "2026-11-02",
+      "in_transit_qty": "10020.00",
+      "earliest_eta": "2026-11-03",
+      "affected_orders_count": 2,
+      "risk": "高",
+      "status": "今日需到料",
+      "timeline": [
+        {
+          "date": "2026-11-02",
+          "label": "最晚需到料",
+          "detail": "SO202601004 进入装配前必须到料",
+          "tone": "danger"
+        },
+        {
+          "date": "2026-11-03",
+          "label": "在途批次到达",
+          "detail": "PO-20261101-02 · 10020.00",
+          "tone": "normal"
+        }
+      ],
+      "affected_orders": [
+        {
+          "order_no": "SO202601004",
+          "customer": "华东智造",
+          "product_name": "智能控制柜 500 型",
+          "need": "6720.00",
+          "gap": "6420.00",
+          "due_date": "2026-11-10",
+          "kit_date": "2026-11-17",
+          "delay_days": 7,
+          "bom_level": 3,
+          "bom_path": "FG-500 > SUB-120 > RM-067",
+          "status": "已延期"
+        },
+        {
+          "order_no": "SO202601005",
+          "customer": "北辰精工",
+          "product_name": "智能控制柜 450 型",
+          "need": "3600.00",
+          "gap": "3600.00",
+          "due_date": "2026-11-14",
+          "kit_date": "2026-11-22",
+          "delay_days": 8,
+          "bom_level": 2,
+          "bom_path": "FG-450 > RM-067",
+          "status": "已延期"
+        }
+      ],
+      "weekly_focus": true
+    },
+    {
+      "item_code": "RM-019",
+      "item_name": "导轨安装支架",
+      "item_type": "原材料",
+      "unit": "件",
+      "total_need": "2180.00",
+      "available": "1880.00",
+      "gap": "300.00",
+      "earliest_required_date": "2026-11-04",
+      "in_transit_qty": "300.00",
+      "earliest_eta": "2026-11-05",
+      "affected_orders_count": 1,
+      "risk": "中",
+      "status": "ETA 晚 1 天",
+      "timeline": [
+        {
+          "date": "2026-11-04",
+          "label": "最晚需到料",
+          "detail": "SO202601004 支架安装工序开始",
+          "tone": "warning"
+        },
+        {
+          "date": "2026-11-05",
+          "label": "在途批次到达",
+          "detail": "PO-20261101-06 · 300.00",
+          "tone": "normal"
+        }
+      ],
+      "affected_orders": [
+        {
+          "order_no": "SO202601004",
+          "customer": "华东智造",
+          "product_name": "智能控制柜 500 型",
+          "need": "2180.00",
+          "gap": "300.00",
+          "due_date": "2026-11-10",
+          "kit_date": "2026-11-17",
+          "delay_days": 7,
+          "bom_level": 4,
+          "bom_path": "FG-500 > SUB-120 > SUB-121 > RM-019",
+          "status": "已延期"
+        }
+      ],
+      "weekly_focus": true
+    },
+    {
+      "item_code": "RM-052",
+      "item_name": "通信接口板",
+      "item_type": "原材料",
+      "unit": "件",
+      "total_need": "13660.50",
+      "available": "3200.00",
+      "gap": "10460.50",
+      "earliest_required_date": "2026-11-05",
+      "in_transit_qty": "10460.50",
+      "earliest_eta": "2026-11-09",
+      "affected_orders_count": 2,
+      "risk": "高",
+      "status": "ETA 晚于需求",
+      "timeline": [
+        {
+          "date": "2026-11-05",
+          "label": "最晚需到料",
+          "detail": "SO202601004 接口板装配前到料",
+          "tone": "danger"
+        },
+        {
+          "date": "2026-11-09",
+          "label": "在途批次到达",
+          "detail": "PO-20261101-03 · 10460.50",
+          "tone": "warning"
+        }
+      ],
+      "affected_orders": [
+        {
+          "order_no": "SO202601004",
+          "customer": "华东智造",
+          "product_name": "智能控制柜 500 型",
+          "need": "8460.50",
+          "gap": "5260.50",
+          "due_date": "2026-11-10",
+          "kit_date": "2026-11-17",
+          "delay_days": 7,
+          "bom_level": 3,
+          "bom_path": "FG-500 > SUB-120 > RM-052",
+          "status": "已延期"
+        },
+        {
+          "order_no": "SO202601003",
+          "customer": "南岭装备",
+          "product_name": "智能控制柜 680 型",
+          "need": "5200.00",
+          "gap": "5200.00",
+          "due_date": "2026-11-25",
+          "kit_date": "2026-11-20",
+          "delay_days": 0,
+          "bom_level": 4,
+          "bom_path": "FG-680 > SUB-210 > SUB-212 > RM-052",
+          "status": "可恢复"
+        }
+      ],
+      "weekly_focus": true
+    },
+    {
+      "item_code": "RM-033",
+      "item_name": "高精度伺服驱动器",
+      "item_type": "原材料",
+      "unit": "台",
+      "total_need": "46012.92",
+      "available": "1200.00",
+      "gap": "44812.92",
+      "earliest_required_date": "2026-11-06",
+      "in_transit_qty": "44812.92",
+      "earliest_eta": "2026-11-16",
+      "affected_orders_count": 3,
+      "risk": "高",
+      "status": "大额缺口",
+      "timeline": [
+        {
+          "date": "2026-11-06",
+          "label": "最晚需到料",
+          "detail": "三张订单共用驱动器的首道需求",
+          "tone": "danger"
+        },
+        {
+          "date": "2026-11-16",
+          "label": "最后批次到达",
+          "detail": "PO-20261101-01 · 29312.92",
+          "tone": "danger"
+        }
+      ],
+      "affected_orders": [
+        {
+          "order_no": "SO202601004",
+          "customer": "华东智造",
+          "product_name": "智能控制柜 500 型",
+          "need": "30512.92",
+          "gap": "29312.92",
+          "due_date": "2026-11-10",
+          "kit_date": "2026-11-17",
+          "delay_days": 7,
+          "bom_level": 3,
+          "bom_path": "FG-500 > SUB-120 > RM-033",
+          "status": "已延期"
+        },
+        {
+          "order_no": "SO202601005",
+          "customer": "北辰精工",
+          "product_name": "智能控制柜 450 型",
+          "need": "12000.00",
+          "gap": "12000.00",
+          "due_date": "2026-11-14",
+          "kit_date": "2026-11-22",
+          "delay_days": 8,
+          "bom_level": 2,
+          "bom_path": "FG-450 > RM-033",
+          "status": "已延期"
+        },
+        {
+          "order_no": "SO202601003",
+          "customer": "南岭装备",
+          "product_name": "智能控制柜 680 型",
+          "need": "3500.00",
+          "gap": "3500.00",
+          "due_date": "2026-11-25",
+          "kit_date": "2026-11-20",
+          "delay_days": 0,
+          "bom_level": 3,
+          "bom_path": "FG-680 > SUB-210 > RM-033",
+          "status": "可恢复"
+        }
+      ],
+      "weekly_focus": true
+    },
+    {
+      "item_code": "RM-041",
+      "item_name": "工业级电源模块",
+      "item_type": "原材料",
+      "unit": "台",
+      "total_need": "21300.00",
+      "available": "4800.00",
+      "gap": "16500.00",
+      "earliest_required_date": "2026-11-08",
+      "in_transit_qty": "16500.00",
+      "earliest_eta": "2026-11-12",
+      "affected_orders_count": 3,
+      "risk": "中",
+      "status": "在途覆盖",
+      "timeline": [
+        {
+          "date": "2026-11-08",
+          "label": "最晚需到料",
+          "detail": "SO202601004 电源模块安装前",
+          "tone": "warning"
+        },
+        {
+          "date": "2026-11-12",
+          "label": "在途批次到达",
+          "detail": "PO-20261101-04 · 16500.00",
+          "tone": "normal"
+        }
+      ],
+      "affected_orders": [
+        {
+          "order_no": "SO202601004",
+          "customer": "华东智造",
+          "product_name": "智能控制柜 500 型",
+          "need": "12800.00",
+          "gap": "8000.00",
+          "due_date": "2026-11-10",
+          "kit_date": "2026-11-17",
+          "delay_days": 7,
+          "bom_level": 3,
+          "bom_path": "FG-500 > SUB-120 > RM-041",
+          "status": "已延期"
+        },
+        {
+          "order_no": "SO202601005",
+          "customer": "北辰精工",
+          "product_name": "智能控制柜 450 型",
+          "need": "5000.00",
+          "gap": "5000.00",
+          "due_date": "2026-11-14",
+          "kit_date": "2026-11-22",
+          "delay_days": 8,
+          "bom_level": 2,
+          "bom_path": "FG-450 > RM-041",
+          "status": "已延期"
+        },
+        {
+          "order_no": "SO202601002",
+          "customer": "环宇电气",
+          "product_name": "智能控制柜 320 型",
+          "need": "3500.00",
+          "gap": "3500.00",
+          "due_date": "2026-11-18",
+          "kit_date": "2026-11-15",
+          "delay_days": 0,
+          "bom_level": 2,
+          "bom_path": "FG-320 > RM-041",
+          "status": "可恢复"
+        }
+      ],
+      "weekly_focus": false
+    },
+    {
+      "item_code": "RM-024",
+      "item_name": "散热模组",
+      "item_type": "原材料",
+      "unit": "组",
+      "total_need": "980.00",
+      "available": "420.00",
+      "gap": "560.00",
+      "earliest_required_date": "2026-11-06",
+      "in_transit_qty": "560.00",
+      "earliest_eta": "2026-11-14",
+      "affected_orders_count": 1,
+      "risk": "中",
+      "status": "ETA 晚于需求",
+      "timeline": [
+        {
+          "date": "2026-11-06",
+          "label": "最晚需到料",
+          "detail": "SO202601004 散热模组装配前",
+          "tone": "warning"
+        },
+        {
+          "date": "2026-11-14",
+          "label": "在途批次到达",
+          "detail": "PO-20261101-05 · 560.00",
+          "tone": "warning"
+        }
+      ],
+      "affected_orders": [
+        {
+          "order_no": "SO202601004",
+          "customer": "华东智造",
+          "product_name": "智能控制柜 500 型",
+          "need": "980.00",
+          "gap": "560.00",
+          "due_date": "2026-11-10",
+          "kit_date": "2026-11-17",
+          "delay_days": 7,
+          "bom_level": 3,
+          "bom_path": "FG-500 > SUB-120 > RM-024",
+          "status": "已延期"
+        }
+      ],
+      "weekly_focus": true
+    }
+  ]
+}

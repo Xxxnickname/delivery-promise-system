@@ -1,0 +1,19 @@
+{
+  "from_snapshot": { "id": "snap_20261031_02", "label": "10-31 18:00 计算", "calc_version": "gen-1.0" },
+  "to_snapshot": { "id": "snap_20261101_03", "label": "11-01 14:28 计算", "calc_version": "gen-1.0" },
+  "summary": { "changed": 12, "delayed": 3, "advanced": 9, "max_delay_days": 7 },
+  "items": [
+    { "order_no": "SO202601004", "customer": "华东智造", "from": "2026-11-10", "to": "2026-11-17", "delta_days": 7 },
+    { "order_no": "SO202601005", "customer": "北辰精工", "from": "2026-11-17", "to": "2026-11-22", "delta_days": 5 },
+    { "order_no": "SO202601009", "customer": "南岭装备", "from": "2026-11-20", "to": "2026-11-23", "delta_days": 3 },
+    { "order_no": "SO202601001", "customer": "华东智造", "from": "2026-11-12", "to": "2026-11-06", "delta_days": -6 },
+    { "order_no": "SO202601002", "customer": "环宇电气", "from": "2026-11-21", "to": "2026-11-15", "delta_days": -6 },
+    { "order_no": "SO202601003", "customer": "南岭装备", "from": "2026-11-25", "to": "2026-11-20", "delta_days": -5 },
+    { "order_no": "SO202601006", "customer": "环宇电气", "from": "2026-11-28", "to": "2026-11-24", "delta_days": -4 },
+    { "order_no": "SO202601007", "customer": "北辰精工", "from": "2026-12-02", "to": "2026-11-29", "delta_days": -3 },
+    { "order_no": "SO202601008", "customer": "华东智造", "from": "2026-12-05", "to": "2026-12-03", "delta_days": -2 },
+    { "order_no": "SO202601010", "customer": "南岭装备", "from": "2026-12-08", "to": "2026-12-07", "delta_days": -1 },
+    { "order_no": "SO202601011", "customer": "环宇电气", "from": "2026-12-10", "to": "2026-12-09", "delta_days": -1 },
+    { "order_no": "SO202601012", "customer": "北辰精工", "from": "2026-12-12", "to": "2026-12-11", "delta_days": -1 }
+  ]
+}
