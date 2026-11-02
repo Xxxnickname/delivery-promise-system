@@ -1,0 +1,207 @@
+{
+  "note": "synthetic stand-in for manual golden orders",
+  "as_of_date": "2026-11-02",
+  "calc_version": "gen-1.0",
+  "orders": [
+    {
+      "order_no": "SO-GOLD-001",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-16",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-002",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-17",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-003",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-18",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-004",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-19",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-005",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-20",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-006",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-21",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-007",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-22",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-008",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-23",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-009",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-24",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-010",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-25",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-011",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-26",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-012",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-27",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-013",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-28",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-014",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-29",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-015",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-11-30",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-016",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-12-01",
+      "kit_date": "2026-11-02",
+      "can_commit": true,
+      "delay_days": 0,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-017",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-12-02",
+      "kit_date": "2026-12-10",
+      "can_commit": false,
+      "delay_days": 8,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-018",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-12-03",
+      "kit_date": "2026-12-10",
+      "can_commit": false,
+      "delay_days": 7,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-019",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-12-04",
+      "kit_date": "2026-12-10",
+      "can_commit": false,
+      "delay_days": 6,
+      "gaps_count": 0
+    },
+    {
+      "order_no": "SO-GOLD-020",
+      "item_code": "FG-100",
+      "qty": "1",
+      "due_date": "2026-12-05",
+      "kit_date": "2026-12-10",
+      "can_commit": false,
+      "delay_days": 5,
+      "gaps_count": 0
+    }
+  ]
+}

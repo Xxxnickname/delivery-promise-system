@@ -1,0 +1,83 @@
+{
+  "order_no": "SO202601004",
+  "customer": "华东智造",
+  "owner": "销售演示",
+  "product_code": "FG-500",
+  "product_name": "智能控制柜 500 型",
+  "qty": "180",
+  "due_date": "2026-11-10",
+  "kit_date": "2026-11-17",
+  "can_commit": false,
+  "delay_days": 7,
+  "risk": "高",
+  "order_state": "缺料预警",
+  "calc_version": "gen-1.0",
+  "last_calculated": "2026-11-01 14:28",
+  "summary": "6 项物料存在缺口，最早可齐套日为 2026-11-17。当前交期需顺延 7 天，优先处理 RM-033 与 RM-041。",
+  "gaps": [
+    {
+      "item_code": "RM-033",
+      "item_name": "高精度伺服驱动器",
+      "need": "30512.92",
+      "available": "1200.00",
+      "gap": "29312.92",
+      "ready_date": "2026-11-16",
+      "impact_orders": ["SO202601004", "SO202601005", "SO202601006"]
+    },
+    {
+      "item_code": "RM-041",
+      "item_name": "工业级电源模块",
+      "need": "12800.00",
+      "available": "4800.00",
+      "gap": "8000.00",
+      "ready_date": "2026-11-12",
+      "impact_orders": ["SO202601004", "SO202601005", "SO202601007"]
+    },
+    {
+      "item_code": "RM-052",
+      "item_name": "通信接口板",
+      "need": "8460.50",
+      "available": "3200.00",
+      "gap": "5260.50",
+      "ready_date": "2026-11-09",
+      "impact_orders": ["SO202601004", "SO202601006"]
+    },
+    {
+      "item_code": "RM-067",
+      "item_name": "屏蔽线束组件",
+      "need": "6720.00",
+      "available": "300.00",
+      "gap": "6420.00",
+      "ready_date": "2026-11-03",
+      "impact_orders": ["SO202601004", "SO202601005"]
+    },
+    {
+      "item_code": "RM-019",
+      "item_name": "导轨安装支架",
+      "need": "2180.00",
+      "available": "1880.00",
+      "gap": "300.00",
+      "ready_date": "2026-11-05",
+      "impact_orders": ["SO202601004"]
+    },
+    {
+      "item_code": "RM-024",
+      "item_name": "散热模组",
+      "need": "980.00",
+      "available": "420.00",
+      "gap": "560.00",
+      "ready_date": "2026-11-14",
+      "impact_orders": ["SO202601004"]
+    }
+  ],
+  "timeline": [
+    { "date": "2026-11-03", "label": "屏蔽线束入仓", "detail": "RM-067 · 到货 6420.00", "tone": "normal" },
+    { "date": "2026-11-05", "label": "安装支架补货", "detail": "RM-019 · 到货 300.00", "tone": "normal" },
+    { "date": "2026-11-09", "label": "通信接口板到货", "detail": "RM-052 · 到货 5260.50", "tone": "normal" },
+    { "date": "2026-11-12", "label": "电源模块到货", "detail": "RM-041 · 到货 8000.00", "tone": "warning" },
+    { "date": "2026-11-14", "label": "散热模组补货", "detail": "RM-024 · 到货 560.00", "tone": "warning" },
+    { "date": "2026-11-16", "label": "最后一项齐套", "detail": "RM-033 · 到货 29312.92", "tone": "danger" },
+    { "date": "2026-11-17", "label": "预计可齐套", "detail": "进入装配排程 · 顺延 7 天", "tone": "danger" }
+  ]
+}
+

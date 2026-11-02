@@ -1,0 +1,33 @@
+{
+  "simulation_id": "sim_20261101_001",
+  "created_at": "2026-11-01 14:35",
+  "not_persisted": true,
+  "request": {
+    "order_no": "SO202601001",
+    "mode": "insert",
+    "qty": "50",
+    "expect_date": "2026-11-15"
+  },
+  "summary": {
+    "headline": "插单可于 2026-11-16 齐套",
+    "affected_count": 4,
+    "max_delay_days": 3,
+    "baseline_calc_version": "gen-1.0",
+    "simulation_calc_version": "gen-1.0-sim"
+  },
+  "inserted_order": {
+    "order_no": "SIM-20261101-01",
+    "customer": "华东智造",
+    "product_name": "智能控制柜 500 型",
+    "qty": "50",
+    "expect_date": "2026-11-15",
+    "kit_date": "2026-11-16",
+    "delay_days": 1
+  },
+  "affected": [
+    { "order_no": "SO202601004", "customer": "华东智造", "before_kit_date": "2026-11-17", "after_kit_date": "2026-11-19", "delay_days": 2, "reason": "抢占 RM-033 在途批次" },
+    { "order_no": "SO202601005", "customer": "北辰精工", "before_kit_date": "2026-11-22", "after_kit_date": "2026-11-25", "delay_days": 3, "reason": "共用电源模块供给" },
+    { "order_no": "SO202601001", "customer": "华东智造", "before_kit_date": "2026-11-06", "after_kit_date": "2026-11-07", "delay_days": 1, "reason": "产线占用延后 1 天" },
+    { "order_no": "SO202601003", "customer": "南岭装备", "before_kit_date": "2026-11-20", "after_kit_date": "2026-11-20", "delay_days": 0, "reason": "无日期变化，仅进入影响观察" }
+  ]
+}

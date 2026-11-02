@@ -1,0 +1,75 @@
+{
+  "batch_id": "ib_20261101_03",
+  "created_at": "2026-11-01 14:40",
+  "mode": "ALL_OR_NOTHING",
+  "ok_rows": 120,
+  "failed_rows": 3,
+  "total_rows": 123,
+  "error_file": "/api/imports/ib_20261101_03/errors.csv",
+  "tables": [
+    {
+      "type": "orders",
+      "label": "订单表",
+      "file_name": "orders_20261101.csv",
+      "rows": 30,
+      "ok_rows": 29,
+      "failed_rows": 1
+    },
+    {
+      "type": "bom",
+      "label": "BOM 表",
+      "file_name": "bom_20261101.csv",
+      "rows": 54,
+      "ok_rows": 54,
+      "failed_rows": 0
+    },
+    {
+      "type": "inventory",
+      "label": "库存表",
+      "file_name": "inventory_20261101.csv",
+      "rows": 24,
+      "ok_rows": 24,
+      "failed_rows": 0
+    },
+    {
+      "type": "in_transit",
+      "label": "在途表",
+      "file_name": "in_transit_20261101.csv",
+      "rows": 15,
+      "ok_rows": 13,
+      "failed_rows": 2
+    }
+  ],
+  "errors": [
+    {
+      "row_no": 18,
+      "column": "due_date",
+      "value": "2026/02/30",
+      "reason": "日期非法：2 月不存在 30 日"
+    },
+    {
+      "row_no": 43,
+      "column": "qty",
+      "value": "-5",
+      "reason": "数量必须大于 0"
+    },
+    {
+      "row_no": 88,
+      "column": "item_code",
+      "value": "",
+      "reason": "必填字段为空"
+    }
+  ],
+  "mode_results": {
+    "ALL_OR_NOTHING": {
+      "status": "ROLLED_BACK",
+      "imported_rows": 0,
+      "rolled_back": true
+    },
+    "PARTIAL_WITH_AUDIT": {
+      "status": "PARTIAL_IMPORTED",
+      "imported_rows": 120,
+      "rolled_back": false
+    }
+  }
+}

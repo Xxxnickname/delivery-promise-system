@@ -1,0 +1,100 @@
+/* 设计令牌：颜色、字号、间距、圆角与动效统一从这里取，页面不直接写业务色值。 */
+:root {
+  color-scheme: light;
+  --font-sans: "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+
+  --color-canvas: #f3f5f3;
+  --color-canvas-deep: #e9eeeb;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f8faf9;
+  --color-surface-hover: #f0f5f2;
+  --color-surface-raised: #ffffff;
+  --color-sidebar: #112e2c;
+  --color-sidebar-raised: #183b38;
+  --color-sidebar-active: #1d4b46;
+  --color-on-sidebar: #eef7f3;
+  --color-on-sidebar-muted: #9fb9b1;
+  --color-sidebar-glow: rgba(102, 205, 168, 0.14);
+
+  --color-ink: #172622;
+  --color-ink-secondary: #3a4b46;
+  --color-muted: #667771;
+  --color-muted-light: #8b9b96;
+  --color-line: #dce5e0;
+  --color-line-strong: #c7d4ce;
+
+  --color-primary: #116b58;
+  --color-primary-hover: #0b5747;
+  --color-primary-soft: #e7f2ee;
+  --color-primary-ink: #095443;
+  --color-accent: #a9761f;
+  --color-accent-hover: #8b6118;
+  --color-accent-soft: #fbf2e1;
+  --color-danger: #b53b3b;
+  --color-danger-hover: #912c2c;
+  --color-danger-soft: #fceceb;
+  --color-success: #1e7451;
+  --color-success-soft: #e6f3ec;
+  --color-info: #3e6098;
+  --color-info-soft: #edf2fb;
+  --color-warning: #9a6518;
+  --color-warning-soft: #fdf4e4;
+  --color-white: #ffffff;
+  --color-focus: #9ac9bb;
+  --color-overlay: rgba(15, 32, 29, 0.44);
+
+  --shadow-xs: 0 1px 2px rgba(23, 38, 34, 0.04);
+  --shadow-sm: 0 4px 14px rgba(23, 38, 34, 0.06);
+  --shadow-md: 0 12px 30px rgba(23, 38, 34, 0.08);
+  --shadow-lg: 0 24px 64px rgba(16, 39, 34, 0.16);
+
+  --radius-xs: 6px;
+  --radius-sm: 9px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --text-2xl: 28px;
+  --text-3xl: 36px;
+  --text-display: 44px;
+
+  --leading-tight: 1.18;
+  --leading-snug: 1.4;
+  --leading-normal: 1.62;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --sidebar-width: 232px;
+  --topbar-height: 64px;
+  --content-max: 1480px;
+  --control-height: 40px;
+  --control-height-sm: 34px;
+  --icon-size: 18px;
+
+  --duration-fast: 120ms;
+  --duration-base: 180ms;
+  --duration-slow: 320ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

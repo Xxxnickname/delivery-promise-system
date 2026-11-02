@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-11-01 14:50",
+  "users": [
+    { "account": "sales01", "name": "销售演示", "role": "sales", "department": "华东销售部", "status": "启用", "customer_scopes": ["华东智造", "环宇电气"], "last_login": "2026-11-01 14:20" },
+    { "account": "sales02", "name": "销售二", "role": "sales", "department": "华南销售部", "status": "启用", "customer_scopes": ["南岭装备"], "last_login": "2026-10-31 18:12" },
+    { "account": "sales03", "name": "销售三", "role": "sales", "department": "华北销售部", "status": "启用", "customer_scopes": ["北辰精工"], "last_login": "2026-10-31 16:40" },
+    { "account": "planner01", "name": "计划演示", "role": "planner", "department": "计划运营部", "status": "启用", "customer_scopes": ["全部客户"], "last_login": "2026-11-01 13:58" },
+    { "account": "planner02", "name": "计划二", "role": "planner", "department": "计划运营部", "status": "启用", "customer_scopes": ["全部客户"], "last_login": "2026-10-30 09:22" },
+    { "account": "supervisor01", "name": "主管演示", "role": "supervisor", "department": "供应链管理部", "status": "启用", "customer_scopes": ["全部客户"], "last_login": "2026-11-01 14:02" },
+    { "account": "supervisor02", "name": "主管二", "role": "supervisor", "department": "交付中心", "status": "启用", "customer_scopes": ["全部客户"], "last_login": "2026-10-29 17:35" },
+    { "account": "admin", "name": "系统管理员", "role": "admin", "department": "信息中心", "status": "启用", "customer_scopes": ["全部客户"], "last_login": "2026-11-01 14:44" },
+    { "account": "planner03", "name": "计划三", "role": "planner", "department": "计划运营部", "status": "停用", "customer_scopes": ["全部客户"], "last_login": "2026-09-18 10:10" },
+    { "account": "quality01", "name": "质量主管", "role": "supervisor", "department": "质量管理部", "status": "启用", "customer_scopes": ["全部客户"], "last_login": "2026-10-27 15:16" }
+  ]
+}
+
