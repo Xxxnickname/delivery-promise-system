@@ -1,0 +1,3 @@
+# 文档中的环境变量占位符被 generic-api-key 规则误报；占位符已从当前版本移除。
+966c4ce04a0e867cf1c2bddc8658c9aa8bcbf8ee:docs/llm-api.md:generic-api-key:9
+2e61b0f29db0156ea336af5eea1e10df9946c73d:docs/llm-api.md:generic-api-key:10
